@@ -36,7 +36,7 @@ nav{
  }
 
  footer {
-   margin-top: 200px;
+   margin-top: 50px;
    clear: both;
    background-color: #0a331a ;
    color: white;
@@ -48,9 +48,14 @@ footer a {
    color: white;
    margin-left: 20px;
 }
-   .main{
-    background-image:url("../img/Rifle.jpg");
-    background-size:cover; }
+   
+   .index,
+   .about,
+   .checkout,
+   .register{
+      background-image: url("../img/Rifle.jpg");
+      background-size: cover;
+   }
 
     .Firearms{
       background-color: black;
@@ -165,6 +170,7 @@ img:hover.Item{
 }
 .log-register{
    color: white;
+   margin-left: 5px;
 }
 
 .table{
