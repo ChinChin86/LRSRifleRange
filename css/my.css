@@ -35,8 +35,21 @@ nav{
     margin-right: 50px;
  }
 
+ footer {
+   margin-top: 200px;
+   clear: both;
+   background-color: #0a331a ;
+   color: white;
+   height: 30px;
+   text-align: center;
+}
+footer a {
+   text-decoration: none;
+   color: white;
+   margin-left: 20px;
+}
    .main{
-    background-image: url("Rifle.jpg");
+    background-image:url('../img/Rifle.jpg');
     background-size:cover; }
 
     .Firearms{
@@ -62,7 +75,7 @@ nav{
    .Browning{
       width: 400px;
       display: inline-block;
-      margin-left: 35px;
+      margin-left: 100px;
    }
    
    .Discription{
@@ -74,7 +87,7 @@ nav{
    .reminton-22{
       width: 300px;
       display: inline-block;
-      margin-left: 230px;
+      margin-left: 100px;
       margin-top: 50px;
 }
 
@@ -91,7 +104,7 @@ nav{
 }
 
 .Member{
-   margin-top: 155px;
+   margin-top: 100px;
 }
 .Membership{
    color: white;
@@ -110,4 +123,58 @@ table,th,td{
 td{
    height: 100px;
    vertical-align: middle;
+}
+.image_right{
+   float: right;
+   margin-left: 10px;
+   margin-bottom: 10px;
+
+}
+.image_left{
+   float: left;
+   margin-left: 10px;
+   margin-bottom: 10px;
+}
+img.Item{
+   transition: transform 0.25s ease;
+}
+
+img:hover.Item{
+   -webkit-transform: scale(2);
+   transform: scale(5) translateX(50%);
+}
+.submit{
+   border: none;
+   border-radius: 3px;
+   background-color: #0a331a;
+}
+
+.street,
+.post-code,
+.s-number,
+.suburb,
+.last-name,
+.name{
+   display: inline-block;
+
+}
+
+.name-gender,
+.location{
+   margin-top: 20px;
+}
+.log-register{
+   color: white;
+}
+
+.table{
+display: inline-block;
+}
+
+.dis{
+   display: inline-block;
+   margin-left: 40px;
+   width: 400px;
+   vertical-align: top;
+   margin-top: 20px;
 }
