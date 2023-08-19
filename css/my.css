@@ -49,7 +49,7 @@ footer a {
    margin-left: 20px;
 }
    .main{
-    background-image:url('../img/Rifle.jpg');
+    background-image:url("../img/Rifle.jpg");
     background-size:cover; }
 
     .Firearms{
@@ -177,4 +177,16 @@ display: inline-block;
    width: 400px;
    vertical-align: top;
    margin-top: 20px;
+}
+
+.Reset,
+.input-b{
+   background-color: #0a331a;
+   width: 100px;
+   cursor: pointer;
+   color: rgb(215, 223, 143);
+   font-weight: bolder;
+}
+.input-reset{
+   margin-top: 50px;
 }
