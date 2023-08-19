@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>LSR Rifle Range</title>
+    <link rel="stylesheet" href="css/my.css">
+<body class="main">
+
+    <header><h1>LRS Rifle Range</h1></header>
+        
+    <p><h4 class="Adress" >Long Range Shooters Pakenham</h4></p>
+        
+    <nav>
+        <ul>
+            <li> <a href="index.html"><img src="img/LOGO.png"alt="Home logo" width="100px"></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="fire arms.html">Fire Arms</a></li>
+                <li><a href="checkout.html">Check Out</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><input type="text" placeholder="Search"></li>
+        </ul>
+    </nav>
+ 
+    <h2>Members Log in!</h2>
+   <div class="log-register">
+       <form action="login.html">
+        <label for="username">User Name:</label><br>
+        <input type="text" id="username" name="username" placeholder="User name" required><br>
+    
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="email" required><br>
+    
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" placeholder="password" required><br>
+    
+    
+        <h2>Register Now!</h2>
+        
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" placeholder="password" required><br>
+    
+        <label for="cpassword">Confirm Password</label><br>
+        <input type="password" id="cpassword" name="cpassword" placeholder="confirm password" required><br>
+    
+     <div class="name-gender">
+        <div class="name">
+            <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="First name" required><br>
+    </div>
+        <div class="last-name">
+            <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" placeholder="Last name" required><br>
+    </div>
+    
+          </div>  
+
+        <label for="gender">Choose gender:</label><br>
+            <select id="gender" name="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select><br>
+      
+        
+      <div class="location"> 
+          <div class="street">
+              <label for="street">Street:</label><br>
+        <input type="text" id="street" name="street" placeholder="Street" required><br>
+    </div> 
+    
+        <div class="s-number">
+            <label for="snumber">Street Number:</label><br>
+        <input type="number" id="snumber" name="snumber" min=1 placeholder="Street number" required><br>
+    </div><br>
+    
+       <div class="suburb">
+            <label for="suburb">Suburb:</label><br>
+        <input type="text" id="suburb" name="suburb" placeholder="Suburb" required><br>
+    </div>
+    
+       <div class="post-code">
+            <label for="pcode">Post Code:</label><br>
+        <input type="number" id="pcode" name="pcode" min=1 placeholder="Post Code" required><br>
+    </div>
+
+    </div>
+
+        <label for="state">State:</label><br>
+        <select id="gender" name="gender" required>
+            <option value="Vic"> VIC</option>
+            <option value="Nsw"> NSW</option>
+            <option value="Qsl"> QSL</option>
+            <option value="Wa"> WA</option>
+        </select><br>
+    
+    
+        <label for="phone">Phone number:</label><br>
+        <input type="tel" id="phone" name="phone" placeholder="ex-0422 222 222" pattern="[0-9]{10}" required><br>
+    </div> 
+        
+        <button class="submit"><input type="submit" value="Submit"></button> <input type="reset">
+    </form>
+
+    <footer>
+        <p>
+            &copy; Chisholm
+            <a href="sitemap.html">Sitemap</a>
+        </p>
+    </footer>
+
+</body>
+</html>
